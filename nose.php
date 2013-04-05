@@ -6,7 +6,6 @@
  * when a threshold is reached
  * 
  * @author f13nd
- *
  */
 Class NoseData {
     private $url = "http://ip-of-nose-monitor/data.txt";
