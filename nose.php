@@ -9,7 +9,7 @@
  *
  */
 Class NoseData {
-    private $url = "http://nose.justin-early.com/data.txt";
+    private $url = "http://ip-of-nose-monitor/data.txt";
     
     public function __construct() {
         return $this->getData();
@@ -168,7 +168,7 @@ Class NoseData {
      * @return mail()
      */
     private function sendAlert($type, $message){
-        $to      = '8327857557@txt.att.net';
+        $to      = 'some@email.com';
         $subject = "Alert: $type";
         return mail($to, $subject, $message);
     }
