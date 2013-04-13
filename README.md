@@ -21,9 +21,9 @@ Example SMS:<br/>
 
 3.) To run continually setup a cron job in /etc/crontab or /etc/cron.d/nose<br/>
 Example Cron:<br/>
-5 * * * * root /usr/bin/php /dir/where/you/have/nose.php<br/>
+*/5 * * * * root /usr/bin/php /dir/where/you/have/nose.php<br/>
 
 <br/>Example without noisy output:<br/>
-5 * * * * root /usr/bin/php /dir/where/you/have/nose.php > /dev/null 2>&1<br/>
+*/5 * * * * root /usr/bin/php /dir/where/you/have/nose.php > /dev/null 2>&1<br/>
 
 Enjoy!
